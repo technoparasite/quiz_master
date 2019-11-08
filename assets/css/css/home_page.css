@@ -1,0 +1,114 @@
+*{
+
+    padding:0;
+}
+fieldset{
+    border:1px solid black;
+    width:50%;
+    margin:0 auto;
+}
+
+legend{
+    width:auto !important;
+    margin:0 auto;
+    border:none;
+}
+
+.login_form{
+    text-align:center;
+}
+
+#start_quiz{
+    width:220px;
+    height:220px;
+    top:50%;
+    left:50%;
+    transform:translate(20%,30%);
+    border-radius:50%;
+    position: absolute;
+    outline: none;
+}
+.well{
+	margin:0 auto;
+    margin-bottom: 10px;
+    height:20vh;
+    padding: 0.3rem 0;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:1.5rem;
+    font-weight:bold;
+}
+.options{
+    width:80%;
+    height:40vh;
+    margin-top:3vh;
+    margin-left:5vh;
+}
+
+input[type="radio"]{
+    width:20px;
+    height:20px;
+    display: block;
+    float: left;
+    border-radius: 50%;
+    }
+   #option_text{
+    width:30%;
+    display:block;
+    float:left;
+    padding:0.3rem 0.3rem;
+   
+  }
+ 
+  #dashboard_screen{
+      background:#576574;
+  }
+  .question_container{
+      margin:0 auto;
+      width:80%;
+  }
+  #report_div{
+      background-color: aqua;
+      width:50%;
+      top:50%;
+      left:50%;
+      position: absolute;
+      transform: translate(-50%,-50%);
+  }
+
+.progress-bar{
+    background-color:#6c5ce7;
+}
+
+.details{
+    width:40%;
+    color:white;
+    background:#5f27cd;
+    z-index:-999;
+    margin-top:1%;
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1;
+    font-size: 1rem;
+}
+#next_block{
+    z-index:10;
+    position: relative;
+}
+.person_information{
+   
+    width:60%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size:1.5rem;
+    letter-spacing: 1;
+    padding:0.4rem 0.2rem;
+    margin:0 0.8rem;
+}
+.person_information > p {
+    padding:0.3rem 0.1rem;
+}  
+
+
+
+
