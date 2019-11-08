@@ -2,7 +2,7 @@
 This is a quiz framework done in codeigniter
 
 database Name quiz_round
-
+sytems folder are in quiz.zip files please extract it and view the result
 created a signup form with name,contact,email 
 sign in form is not created(In this project)
 
